@@ -120,7 +120,7 @@ class ChallengeSceneCfg(InteractiveSceneCfg):
         debug_vis=False,
     )
 
-    robot = MISSING
+    robot: ArticulationCfg = MISSING
 
     # sensors
     height_scanner = RayCasterCfg(
